@@ -24,6 +24,7 @@ Obiekty na mapie (rezerwaty) po kliknięciu na nie mają wyświetlać najbardzie
 
 mapshaper.org okazał się być pomocny w obejrzeniu mapy w wersji poglądowej
 
+Zrzuty ekranu z obu "wersji" projektu zawarte są w folderze głównym (screenshot).
 
 PRÓBA - objaśnienie działań
 
