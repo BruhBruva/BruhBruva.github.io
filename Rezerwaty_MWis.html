@@ -81,12 +81,25 @@
         L.control.layers(baseLayers).addTo(map);
 
         // Load GeoJSON data
-        $.getJSON('https://raw.githubusercontent.com/BruhBruva/BruhBruva.github.io/blob/b985cbcce725e85bfd524aa6de8bd9348d723ae1/Rezerwaty_rodzaje.geojson', function(data) {
+        $.getJSON('https://raw.githubusercontent.com/TwojaNazwaUzytkownika/NazwaRepozytorium/branch/data/Simplified_Rezerwaty_rodzaje.geojson', function(data) {
             var rezerwatyLayers = {};
+            var colors = {
+                "wodny": "#1f78b4",
+                "torfowiskowy": "#33a02c",
+                "stepowy": "#e31a1c",
+                "slonoroslowy": "#ff7f00",
+                "przyrody_nieozywionej": "#6a3d9a",
+                "nie_okreslono": "#b15928",
+                "lesny": "#b2df8a",
+                "krajobrazowy": "#fb9a99",
+                "florystyczny": "#fdbf6f",
+                "faunistyczny": "#cab2d6",
+                "null": "#ffff99"
+            };
 
             function onEachFeature(feature, layer) {
-                if (feature.properties && feature.properties.Nazwa) {
-                    layer.bindPopup(feature.properties.Nazwa);
+                if (feature.properties && feature.properties.nazwa) {
+                    layer.bindPopup(feature.properties.nazwa);
                 }
             }
 
@@ -96,6 +109,9 @@
                 rezerwatyLayers[rodzaj] = L.geoJSON(data, {
                     filter: function(feature) {
                         return feature.properties.Rodzaj === rodzaj;
+                    },
+                    style: function(feature) {
+                        return { color: colors[rodzaj], weight: 2, opacity: 1, fillOpacity: 0.5 };
                     },
                     onEachFeature: onEachFeature
                 }).addTo(map);
