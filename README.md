@@ -41,3 +41,5 @@ WERSJA Z MAP HUB - objaśnienie działań
 - dodanie plików do MapHub
 - Ustalenie odpowiedniej kolorystyki rezerwatów
 - Ustalenie tytułu i krótkiego opisu
+
+(MapHub pozwala na osadzenie interaktywnej mapy na własnej stronie)
