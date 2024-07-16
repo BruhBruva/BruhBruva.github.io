@@ -46,3 +46,11 @@ WERSJA Z MAP HUB - objaśnienie działań
 
 Projekt znajduje się na GitHubie głównie dlatego, że chciałem aby stworzona przeze mnie mapa była ogólnie dostępna za pomocą linku na GitHub Sites.
 Dodatkowo dzięki temu można mieć łatwy dostęp/wgląd do plików celem ich sprawdzenia.
+
+Owy projekt w najbliższych miesiącach będzie przeze mnie naprawiany i ulepszany gdyż zamierzam włączyć go w moją pracę inżynierską.
+Dlatego w finalnym projekcie mam w planie zawrzeć:
+  - dodanie i możliwość wyboru aktywnych pasm (i ich kombinacji) obrazów satelitarnych (Sentinel)
+  - przycięcie pasm do obszarów rezerwatów celem analizy róznic pomiędzy rodzajami rezerwatów
+  - wyszukiwarka pojedyńczych rezerwatów po np. nazwie
+  - dodatkowe informacje na temat każdego rezerwatu (powierzchnia itp.)
+  - Osobna zakładka z opisem analiz różnic między rezerwatami, bądź umieszczenie tego na własnej stronie do której zostanie włączona mapa
