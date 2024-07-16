@@ -20,12 +20,14 @@ Do wyboru mają być różne rodzaje podkładów, by użytkownik wybrał dogodny
 W planach było stworzenie bardziej zaawansowanego paska bocznego dzięki, któremu mógłbym zawrzeć tam informacje na temat rezerwatów przyrody i informacji dla każego rodzaju z osobna.
 Obiekty na mapie (rezerwaty) po kliknięciu na nie mają wyświetlać najbardziej podstawowe informacje na ich temat.
 
+(lokalizacja rezerwatów jak i dane na ich temat pochodziły z tych samych źródeł co w "próbie")
+
 mapshaper.org okazał się być pomocny w obejrzeniu mapy w wersji poglądowej
 
 
 PRÓBA - objaśnienie działań
 
-Mapę wykonałem w Notepad++ korzystając z kodu HTML przy użyciu bibliotek JS/Leaflet.
+Kod wykonałem w Notepad++ korzystając z HTML przy użyciu bibliotek JS/Leaflet.
 
 - utworzenie i przystosowanie paska bocznego
 - dodanie podkładów i możliwości przełączania między nimi
