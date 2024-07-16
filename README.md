@@ -43,3 +43,6 @@ WERSJA Z MAP HUB - objaśnienie działań
 - Ustalenie tytułu i krótkiego opisu
 
 (MapHub pozwala na osadzenie interaktywnej mapy na własnej stronie)
+
+Projekt znajduje się na GitHubie głównie dlatego, że chciałem aby stworzona przeze mnie mapa była ogólnie dostępna za pomocą linku na GitHub Sites.
+Dodatkowo dzięki temu można mieć łatwy dostęp/wgląd do plików celem ich sprawdzenia.
