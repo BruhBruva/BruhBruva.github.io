@@ -12,18 +12,26 @@
         }
         .sidebar {
             position: fixed;
-            top: 0;
-            left: 0;
+            top: 10px;
+            left: 10px;
             width: 250px;
-            height: 100%;
             background-color: white;
-            border-right: 1px solid #ccc;
+            border: 1px solid #ccc;
             padding: 10px;
+            z-index: 1000;
+            max-height: 90vh;
             overflow-y: auto;
         }
         .sidebar h2 {
             font-size: 18px;
             margin-top: 0;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -73,7 +81,7 @@
         L.control.layers(baseLayers).addTo(map);
 
         // Load GeoJSON data
-        $.getJSON('https://github.com/BruhBruva/BruhBruva.github.io/blob/b985cbcce725e85bfd524aa6de8bd9348d723ae1/Rezerwaty_rodzaje.geojson', function(data) {
+        $.getJSON('https://raw.githubusercontent.com/BruhBruva/BruhBruva.github.io/blob/b985cbcce725e85bfd524aa6de8bd9348d723ae1/Rezerwaty_rodzaje.geojson', function(data) {
             var rezerwatyLayers = {};
 
             function onEachFeature(feature, layer) {
