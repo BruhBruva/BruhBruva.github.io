@@ -55,4 +55,4 @@ Dlatego w finalnym projekcie mam w planie zawrzeć:
   - przycięcie pasm do obszarów rezerwatów celem analizy róznic pomiędzy rodzajami rezerwatów
   - wyszukiwarka pojedyńczych rezerwatów po np. nazwie
   - dodatkowe informacje na temat każdego rezerwatu (powierzchnia itp.)
-  - Osobna zakładka z opisem analiz różnic między rezerwatami, bądź umieszczenie tego na własnej stronie do której zostanie włączona mapa
+  - osobna zakładka z opisem analiz różnic między rezerwatami, bądź umieszczenie tego na własnej stronie do której zostanie włączona mapa
